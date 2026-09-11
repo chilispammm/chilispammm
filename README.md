@@ -152,33 +152,19 @@ Statistical analysis of forward finishing performance, shot distribution and goa
 
 ## Technical Stack
 
-### Core
+| Area | Technologies & Capabilities |
+|---|---|
+| **Core Programming & Data** | Python · SQL · R · Pandas · NumPy · scikit-learn |
+| **Data Engineering** | ETL · Data Pipelines · APIs · Web Scraping · Automation · SQLAlchemy · SQLite · DuckDB · Data Quality · Data Reconciliation |
+| **AI & Machine Learning** | PyTorch · TensorFlow/Keras · XGBoost · LightGBM · YOLOv8 · OpenCV · NLP · spaCy · Sentence-BERT · Computer Vision |
+| **Statistics & Quantitative Modelling** | Statistical Modelling · Bayesian Modelling · MCMC · GLMs · Mixed-Effects Models · Forecasting · Monte Carlo Simulation |
+| **Geospatial & Remote Sensing** | Remote Sensing · GIS · Geospatial Analytics · Sentinel-2 · CHIRPS · NASA SMAP · GeoPandas · Rasterio · xarray · Dask · STAC · QGIS |
+| **Analytics & Applications** | Streamlit · Plotly · Matplotlib · ggplot2 · Tableau · Power BI · Excel |
+| **Testing & Development** | Git · GitHub · Pytest · Reproducibility · Data Validation |
 
-**Python · SQL · R · Pandas · NumPy · scikit-learn**
+## Applied Domains
 
-### Data Engineering
-
-**ETL · Data Pipelines · APIs · Web Scraping · Automation · SQLAlchemy · SQLite · DuckDB · Data Quality & Reconciliation**
-
-### AI & Machine Learning
-
-**PyTorch · TensorFlow/Keras · XGBoost · LightGBM · YOLOv8 · OpenCV · NLP · spaCy · Sentence-BERT · Computer Vision**
-
-### Statistics
-
-**Statistical Modelling · Bayesian Modelling · MCMC · GLMs · Mixed-Effects Models · Forecasting · Monte Carlo Simulation · Quantitative Modelling**
-
-### Geospatial
-
-**Remote Sensing · GIS · Geospatial Analytics · Sentinel-2 · CHIRPS · NASA SMAP · GeoPandas · Rasterio · xarray · Dask · STAC · QGIS**
-
-### Analytics & Applications
-
-**Streamlit · Plotly · Matplotlib · ggplot2 · Tableau · Power BI · Excel · Git · GitHub · Pytest**
-
-### Applied Domains
-
-**Football Analytics · Player Intelligence · Agricultural Intelligence · Operational Analytics**
+**Agricultural Intelligence · Football Analytics · Player Intelligence · Operational Analytics · Geospatial Intelligence · Quantitative Forecasting**
 
 ---
 
