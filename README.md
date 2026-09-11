@@ -1,227 +1,205 @@
 # Wayne Chilionje
 
 **Data & AI · Digital Systems · Analytics**
-Nairobi, Kenya · +254 722 542 336 · [waynemataara@gmail.com](mailto:waynemataara@gmail.com)
-[LinkedIn](https://linkedin.com/in/wayne-chilionje) · [GitHub](https://github.com/chilispammm)
+
+Nairobi, Kenya · [waynemataara@gmail.com](mailto:waynemataara@gmail.com)
+[LinkedIn](https://linkedin.com/in/wayne-chilionje) · [Portfolio](https://chilispammm.github.io/portfolio/) · [GitHub](https://github.com/chilispammm)
 
 ---
 
-## ⚡ What I Build
+## What I Build
 
-I build practical digital systems that turn messy data and operational problems into usable products — from automated data pipelines and analytical platforms to geospatial intelligence, machine learning systems, and production web applications.
+I build practical data and digital systems that turn messy data into something people can actually use.
 
-My work sits at the intersection of **Python, data engineering, analytics, AI/ML, geospatial systems, and digital product development**, with a focus on building systems that can actually be used rather than just demonstrated.
+My work spans **data engineering, analytics, AI/ML, geospatial intelligence and quantitative modelling**, with projects across agriculture, football, operations and digital products.
 
----
+My main technical stack is **Python, SQL and R**, supported by machine learning, statistical modelling, data pipelines, remote sensing and analytical applications.
 
-## 01 / Selected Work
-
-### [Crystal Brands Communications](https://crystalbrands.co.ke/)
-
-**Commercial Website · Design & Development · Production Deployment**
-
-Built and deployed a production website for a Kenyan branding, advertising, and events company.
-
-* Developed a responsive commercial web experience focused on clear service positioning and business enquiries.
-* Structured the site around the company's actual offerings and customer journey.
-* Delivered and maintained a production system rather than a static design concept.
+**Robust pipelines · Verifiable models · Usable systems**
 
 ---
 
-### [ChiliAnalysis Football Intelligence](https://chilianalysis.co.ke/)
+## Selected Work
 
-**Football Analytics Platform · Data Pipelines · Performance Intelligence**
+### [Crop Stress Intelligence](https://github.com/chilispammm)
 
-An independent football intelligence platform I founded to analyse player performance, identify undervalued talent, and turn football data into scouting and decision-making insights.
+**Geospatial / Agricultural Intelligence · Python · Sentinel-2 · CHIRPS · NASA SMAP**
 
-* Built automated data acquisition and analysis workflows using Python and web-data extraction.
-* Developed spatial and performance analytics for player evaluation and benchmarking.
-* Produced scouting dossiers comparing Kenyan NSL players against broader African and European performance standards.
-* Published 10+ technical reports generating 10,000+ organic reads.
+An end-to-end agricultural intelligence system analysing a **503.10 ha pilot in Uasin Gishu, Kenya**.
 
-**Relevant for:** football analytics, sports data, player evaluation, statistical modelling, data acquisition.
+* Processes multi-sensor satellite and environmental data across 15 × 14-day analysis bins.
+* Uses sensor-native spatial handling and deterministic screening logic.
+* Produces field-level scouting polygons from vegetation, rainfall and soil-moisture signals.
+* Includes **104 automated tests** covering the analytical pipeline.
+
+**Stack:** Python · xarray · Dask · GeoPandas · Rasterio · STAC · NumPy · Pandas
 
 ---
 
 ### [Wanza Farm Management System](https://wanza-fms.streamlit.app/)
 
-**Operational Intelligence · Python · Data Systems**
+**Farm Operations · Data Systems · Decision Support**
 
-A farm management and decision-support platform built around real operational records.
+A source-grounded farm management and decision-support system built around real operational records.
 
-* Designed relational data structures for livestock, crop, milk-production and operational records.
-* Implemented deterministic validation and reconciliation to preserve source-grounded data.
-* Built an interactive operational interface for analysing farm performance and management information.
-* Separated verified source data from assumptions and derived metrics.
+* Designed relational structures for livestock, crops, milk production and farm operations.
+* Implemented validation, reconciliation and audit workflows for source data.
+* Preserves missing and unknown values rather than inventing financial or operational information.
+* Built an interactive interface for operational analysis and management reporting.
 
-**Relevant for:** data engineering, dashboards, agriculture, operational analytics, Python systems.
+**Evidence:** 42 animals · 23 plots · 32,761 L recorded milk production · 100% herd census reconciliation
 
----
-
-### World Cup 2026 Real-Time Statistical Modelling Engine
-
-**Private System · Live Data · Statistical Modelling**
-
-A football analytics and betting engine developed with a collaborator for the 2026 World Cup.
-
-* Built around live event streams delivered through APIs/WebSockets.
-* Combined statistical scoring models, expected-goals analysis, Bayesian state updating and dynamic market/odds analysis.
-* Designed for low-latency processing of changing match states and real-time decision support.
-
-**Private project:** architecture, modelling methodology and selected validation material can be demonstrated during technical discussions.
+**Stack:** Python · SQLAlchemy · SQLite · Pandas · Streamlit · Plotly · Pytest
 
 ---
 
-## 02 / Core Capabilities
+### [ChiliAnalysis Football Intelligence](https://chilianalysis.co.ke/)
 
-### Data Engineering & Automation
+**Football Analytics · Player Intelligence · Data Engineering**
 
-I build systems that collect, transform and deliver data without requiring repetitive manual work.
+An independent football intelligence platform I founded to analyse player performance and turn football data into scouting and decision-making insights.
 
-**Python · SQL · Pandas · DuckDB · PySpark · APIs · Web Scraping · Selenium · Playwright · BeautifulSoup · ETL**
+* Built automated data acquisition and analytical workflows.
+* Developed player benchmarking and performance analysis across African and European football.
+* Published technical dossiers covering Kenyan players, Premier League performers and AFCON 2025.
+* Generated **30,000+ organic reads** across the platform.
 
-Typical applications:
-
-* Automated data collection
-* Web-data extraction
-* API integrations
-* ETL pipelines
-* Data cleaning and transformation
-* Automated reporting
-* Database workflows
+**Stack:** Python · Web Data Extraction · Statistical Analysis · Data Visualisation
 
 ---
 
-### Data Analytics & Decision Systems
+### World Cup 2026 Quantitative Forecasting Engine
 
-I turn operational datasets into systems people can actually use to understand performance and make decisions.
+**Bayesian Modelling · Machine Learning · Quantitative Forecasting**
 
-**Python · R · SQL · Power BI · Tableau · Streamlit · Plotly · Statistical Modelling**
+A private quantitative modelling system for international football forecasting and market analysis.
 
-Typical applications:
+* Built hierarchical Bayesian Poisson models with MCMC.
+* Combined Bayesian modelling with tree-based ensemble methods.
+* Engineered historical team-strength, form, tournament and contextual features.
+* Simulated tournament outcomes using Monte Carlo methods.
+* Evaluated predictions on a held-out set of **6,425 competitive matches**.
 
-* KPI dashboards
-* Operational reporting
-* Performance analysis
-* Forecasting
-* Business intelligence
-* Management decision support
+**Selected validation:** 61.73% 1X2 accuracy · 80.57% DNB accuracy · 85.74% high-confidence DNB accuracy
 
----
-
-### AI / Machine Learning
-
-Applied machine learning focused on solving specific problems rather than modelling for its own sake.
-
-**PyTorch · TensorFlow · scikit-learn · OpenCV · Hugging Face · NLP · Computer Vision**
-
-Areas include:
-
-* Computer vision
-* Predictive modelling
-* Classification
-* NLP
-* AI evaluation
-* LLM workflows
-* Statistical modelling
+**Private system:** architecture and validation methodology available for technical discussion.
 
 ---
 
-### Geospatial & Agricultural Intelligence
+### [Crystal Brands Communications](https://crystalbrands.co.ke/)
 
-I work with satellite and environmental data to build analytical systems for agriculture and spatial decision-making.
+**Commercial Website · Client Deployment**
 
-**Sentinel-2 · CHIRPS · NASA SMAP · Remote Sensing · GIS · QGIS · Python · Geospatial Analytics**
+Built and deployed a commercial website for a Kenyan branding, advertising and events company.
 
-Applications include:
-
-* Crop-health monitoring
-* Agricultural intelligence
-* Environmental analysis
-* Spatial triage
-* Remote sensing pipelines
-* Field scouting support
+* Structured the site around the company's actual services and customer journey.
+* Developed a responsive digital presence focused on clear commercial communication.
+* Delivered a live client-facing website rather than a design-only concept.
 
 ---
 
-## 03 / Technical Projects
+## Technical Projects
 
-### `crop-stress-intelligence-kenya`
+### YOLOv8 Football Object Detection
 
-**Python · Sentinel-2 · CHIRPS · NASA SMAP · xarray · Dask**
+**Computer Vision · YOLOv8 · Video**
 
-Multi-sensor agricultural intelligence pipeline analysing approximately 503 hectares in Uasin Gishu County.
+End-to-end football object-detection workflow covering dataset preparation, model training, evaluation and inference on players, referees and the ball.
 
-* Detects and separates rainfall/moisture-driven stress from canopy-level vegetation anomalies.
-* Uses sensor-native spatial resolutions rather than introducing artificial high-resolution interpolation.
-* Includes a 104-test automated validation suite.
-* Produces GeoJSON scouting polygons for field investigation.
-
-**[GitHub / Case Study]**
+[Technical write-up](https://medium.com/@waynemataara/training-yolov8-for-football-object-detection-insights-from-the-norwegian-eliteserien-7f0d00d28be8)
 
 ---
 
-### `simclr-road-anomaly-detection`
+### MUFC Goals & Passing — Statistical Modelling
 
-**PyTorch · ResNet · Computer Vision · Self-Supervised Learning**
+**R · GLMs · Negative Binomial · Mixed Effects**
 
-Self-supervised computer vision pipeline for infrastructure surface anomaly detection.
+Applied statistical modelling across 38 Manchester United matches, investigating relationships between passing profiles, expected goals, assists and final scoring outcomes.
 
-* Trained using contrastive representation learning.
-* Evaluated downstream representations through linear evaluation.
-* Designed as an applied computer-vision workflow rather than a purely theoretical experiment.
-
-**[GitHub / Technical Write-up]**
+[Repository](https://github.com/chilispammm/PProjects/tree/master/GLMs%20to%20analyze%20MUFC%20Goals%20with%20Passing%20data)
 
 ---
 
-### `distributed-pyspark-etl`
+### Road Surface Anomaly Detection
 
-**PySpark · Docker · DuckDB · Data Engineering**
+**PyTorch · SimCLR · ResNet18 · Computer Vision**
 
-Containerised data-processing pipeline designed around high-throughput event ingestion, schema normalisation and analytical querying.
+Self-supervised contrastive learning pipeline applied to **3,000+ pavement images**, using learned representations for downstream evaluation and visual embedding analysis.
 
-**[GitHub]**
-
----
-
-## 04 / What I Can Build
-
-**Data & Automation**
-Python systems, ETL pipelines, scraping, API integrations, automated reporting and data workflows.
-
-**Analytics & Dashboards**
-Operational dashboards, KPI systems, management reporting and decision-support applications.
-
-**AI & ML**
-Computer vision, predictive modelling, statistical systems, AI evaluation and applied ML workflows.
-
-**Geospatial & Agriculture**
-Remote-sensing analysis, GIS systems, agricultural intelligence and spatial decision support.
-
-**Digital Products**
-Production websites and lightweight web applications for organisations that need a functional digital presence.
-
-**Sports Intelligence**
-Football data pipelines, player evaluation, performance analytics, statistical modelling and live-data systems.
+[Repository](https://github.com/chilispammm/PProjects/tree/master/road-cracks-detection)
 
 ---
 
-## 05 / Contact
+### Job Scraping & NLP Classification
 
-Available for:
+**Python · Web Scraping · NLP · Automation**
 
-* Data & AI engineering
-* Python automation
-* Data analytics
-* Geospatial / agricultural intelligence
-* Football analytics
-* Dashboards and operational systems
-* Technical consulting
-* Commercial web development
+Automated job-data collection and classification workflow covering dynamic page extraction, HTML normalisation, entity extraction and skill taxonomy tagging.
+
+[Repository](https://github.com/chilispammm/PProjects)
+
+---
+
+### Premier League Forward Performance
+
+**R · Multinomial Models · GLM**
+
+Statistical analysis of forward finishing performance, shot distribution and goal expectancy using generalized linear and multinomial models.
+
+[Repository](https://github.com/chilispammm/PProjects/tree/master/Multinomial%20and%20Generalized%20Linear%20Model%20Applications%20in%20Analyzing%20Premier%20League%20Forward%20Performance)
+
+---
+
+## Technical Stack
+
+### Core
+
+**Python · SQL · R · Pandas · NumPy · scikit-learn**
+
+### Data Engineering
+
+**ETL · Data Pipelines · APIs · Web Scraping · Automation · SQLAlchemy · SQLite · DuckDB · Data Quality & Reconciliation**
+
+### AI & Machine Learning
+
+**PyTorch · TensorFlow/Keras · XGBoost · LightGBM · YOLOv8 · OpenCV · NLP · spaCy · Sentence-BERT · Computer Vision**
+
+### Statistics
+
+**Statistical Modelling · Bayesian Modelling · MCMC · GLMs · Mixed-Effects Models · Forecasting · Monte Carlo Simulation · Quantitative Modelling**
+
+### Geospatial
+
+**Remote Sensing · GIS · Geospatial Analytics · Sentinel-2 · CHIRPS · NASA SMAP · GeoPandas · Rasterio · xarray · Dask · STAC · QGIS**
+
+### Analytics & Applications
+
+**Streamlit · Plotly · Matplotlib · ggplot2 · Tableau · Power BI · Excel · Git · GitHub · Pytest**
+
+### Applied Domains
+
+**Football Analytics · Player Intelligence · Agricultural Intelligence · Operational Analytics**
+
+---
+
+## Current Focus
+
+I am particularly interested in work involving:
+
+* Data engineering and Python systems
+* Analytics and decision-support platforms
+* Machine learning and applied AI
+* Geospatial and agricultural intelligence
+* Football and sports analytics
+* Quantitative modelling and forecasting
+* Data acquisition and workflow automation
+
+---
+
+## Contact
 
 **Email:** [waynemataara@gmail.com](mailto:waynemataara@gmail.com)
 **LinkedIn:** [linkedin.com/in/wayne-chilionje](https://linkedin.com/in/wayne-chilionje)
-**GitHub:** [github.com/chilispammm](https://github.com/chilispammm)
+**Portfolio:** [chilispammm.github.io/portfolio](https://chilispammm.github.io/portfolio/)
 
 **Nairobi, Kenya · Available for local engagements and global remote contracts**
