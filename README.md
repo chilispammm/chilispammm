@@ -21,7 +21,7 @@ My main technical stack is **Python, SQL and R**, supported by machine learning,
 
 ## Selected Work
 
-### [Crop Stress Intelligence](https://github.com/chilispammm)
+### [Crop Stress Intelligence](https://github.com/chilispammm/crop-stress-intelligence-kenya)
 
 **Geospatial / Agricultural Intelligence · Python · Sentinel-2 · CHIRPS · NASA SMAP**
 
@@ -36,7 +36,7 @@ An end-to-end agricultural intelligence system analysing a **503.10 ha pilot in 
 
 ---
 
-### [Wanza Farm Management System](https://wanza-fms.streamlit.app/)
+### [Wanza Farm Management System]
 
 **Farm Operations · Data Systems · Decision Support**
 
