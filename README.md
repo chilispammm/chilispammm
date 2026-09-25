@@ -47,7 +47,7 @@ A source-grounded farm management and decision-support system built around real 
 * Preserves missing and unknown values rather than inventing financial or operational information.
 * Built an interactive interface for operational analysis and management reporting.
 
-**Evidence:** 42 animals · 23 plots · 32,761 L recorded milk production · 100% herd census reconciliation
+**Evidence:** 40+ animals · 20+ plots · 30,000+ L recorded milk production · 100% herd census reconciliation
 
 **Stack:** Python · SQLAlchemy · SQLite · Pandas · Streamlit · Plotly · Pytest
 
